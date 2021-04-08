@@ -83,7 +83,6 @@ async def on_message(message):
     if message.content.startswith('whos the captain'):
         await message.channel.send("Im the captain Now")
 
-
 client.run(os.getenv('token'))
 
 # https://www.theclosetinc.com/products/mens-nike-air-max-95-ndstrkt-shoe
